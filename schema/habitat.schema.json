@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "title": "Habitat",
+    "description": "a habitat in the Planet Zoo",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "name": {
+            "type": "string"
+        },
+        "area": {
+            "type": "number"
+        }
+    },
+    "required": ["id", "name", "area"]
+}
